@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
- var str ="Henry";
+ var str = "Henry";
  return devolverString(str);
 
 }
@@ -72,10 +72,10 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-if('hola' == 'lola'){
-  return true;
+if('hola' == 'correr'){
+  return false;
 }
-return false;
+return true;
 }
 
 function menosQueNoventa(num) {
@@ -188,7 +188,7 @@ function combinarNombres(nombre, apellido) {
   // Tu código:
   var nombre = 'Joaquin'
   var apellido = 'Guerrero'
-  return nombre + apellido;
+  return combinarNombres(nombre, apellido);
 }
 
 function obtenerSaludo(nombre) {
@@ -196,7 +196,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   var nombre = 'Martin'
-  return 'Hola' + nombre;
+  return 'Hola', nombre;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
