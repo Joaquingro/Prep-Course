@@ -71,9 +71,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
- if tienenMismaLongitud('hola', 'bienvenido'){
+ if('hola', 'bienvenido'){
   return false;
- }else if tienenMismaLongitud('Lastima', 'sietese'){
+ }else if('Lastima', 'sietese'){
   return true; 
  }
 }
