@@ -236,7 +236,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra == 'a' || 'e '|| 'i '|| 'o '|| 'u'){
     return 'Es vocal'
-  }if else(letra = 'la' || 'pero' ){
+  }else if(letra = 'la' || 'pero' ){
     return 'Dato incorrecto'
   }
 }
