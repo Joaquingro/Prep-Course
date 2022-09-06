@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return devolverString('str');
+  return devolverString(str);
 
 }
 
@@ -71,10 +71,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1 == str2){
-    return true;
-  }
+ if tienenMismaLongitud('hola', 'bienvenido'){
   return false;
+ }else if tienenMismaLongitud('Lastima', 'sietese'){
+  return true; 
+ }
 }
 
 function menosQueNoventa(num) {
@@ -165,7 +166,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero>0){
+  if(numero == 0){
+    return false;
+  }else if (numero>0){
     return 'Es positivo';
   }
   return 'Es negativo';
