@@ -28,8 +28,8 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
- var str = "Henry";
- return devolverString(str);
+
+ return 'Henry';
 
 }
 
