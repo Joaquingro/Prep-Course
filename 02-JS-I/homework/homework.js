@@ -72,10 +72,10 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-if('hola' == 'correr'){
-  return false;
+if('hola' == 'corre'){
+  return true;
 }
-return true;
+return false;
 }
 
 function menosQueNoventa(num) {
@@ -187,7 +187,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
- return 'Soy' + "" + 'Henry';
+ return 'Soy' + '' + 'Henry';
 }
 
 function obtenerSaludo(nombre) {
@@ -195,7 +195,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   
- return 'Hola' + "" + 'Martin';
+ return 'Hola' + '' + 'Martin';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
