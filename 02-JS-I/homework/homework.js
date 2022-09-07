@@ -180,7 +180,7 @@ function agregarSimboloExclamacion(str) {
   // Tu código:
  
 
-  return 'hola mundo!';
+  return "hello wordl!";
   }
 
 function combinarNombres(nombre, apellido) {
@@ -194,6 +194,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  obtenerSaludo('Martin')
  return 'Hola' + "" + nombre;
 }
 
