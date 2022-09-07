@@ -180,7 +180,7 @@ function agregarSimboloExclamacion(str) {
   // Tu código:
  
 
-  return "Soy Henry";
+  return "Soy Henry!";
   }
 
 function combinarNombres(nombre, apellido) {
@@ -235,7 +235,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra == 'a' || 'e '|| 'i '|| 'o '|| 'u'){
     return 'Es vocal'
-  }
+  }else if(letra == "l")
     return 'Dato incorrecto'
   }
 
