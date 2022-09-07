@@ -178,9 +178,10 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var str = 'hello world!'
-  return agregarSimboloExclamacion(str);
-}
+ 
+
+  return agregarSimboloExclamacion('hola!');
+  }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -195,8 +196,8 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var nombre = 'Martin'
-  return 'Hola', nombre;
+  console.log('Hola' + nombre);
+  return obtenerSaludo('Martin');
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
