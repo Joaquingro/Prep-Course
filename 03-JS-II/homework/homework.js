@@ -53,10 +53,10 @@ function saludo(idioma) {
     return "Ni Hao!";
   }if(idioma === "ingles"){
     return "Hello!";
-  } if( idioma === undefined){
+  } 
     return "Hola!";
   }
-}
+
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -115,7 +115,7 @@ function esEntero(numero) {
   // Tu código:
   if (numero != 1.0){
     return true;
-  } 
+  } if (numero != 1)
    return false;
 }
 
@@ -143,12 +143,12 @@ function operadoresLogicos(num1, num2, num3) {
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
   if(num1 > num2 && num1 > num3 && num1 > 0){
     return "Número 1 es mayor y positivo";
-  } if (num1 < 0 || num2 < 0 || num3 < 0){
+  } if (num1 < 0 && num2 < 0 && num3 < 0){
     return "Hay negativos";
   } if(num3 > num1 && num3 > num2){
     num3++;
     return num3; 
-  } if (num1 === 0 || num2 === 0 || num3 === 0){
+  } if (num1 === 0 && num2 === 0 && num3 === 0){
     return "Error";
   }
   return false;
@@ -183,12 +183,12 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  for (var i = 1; i<=60; i++){
-    if( i % 3 === 0){
+  for (var i = 1; i<=60; i+3){
+    
       return i;
     }
   }
-}
+
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
