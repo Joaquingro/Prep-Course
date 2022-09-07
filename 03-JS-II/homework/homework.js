@@ -204,8 +204,8 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
   do{ numero = numero + 5; 
-    console.log(numero);
-   }   while(numero > 8 );
+    return numero;
+   }   while(numero >= 8 );
 }
 
 
