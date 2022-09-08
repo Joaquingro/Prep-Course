@@ -185,7 +185,7 @@ function tablaDelSeis(){
   for (let i = 0; i < 11; i++) {
         arrayTabla.push(6 * i)
   }
-  return arrayTablaDel6
+  return arrayTabla;
 }
   
 
