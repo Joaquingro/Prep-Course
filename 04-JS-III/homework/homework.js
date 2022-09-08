@@ -12,7 +12,7 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
   array = [1, 2, 3, 4];
-  return array[3]:
+  return array[3];
 }
 
 
