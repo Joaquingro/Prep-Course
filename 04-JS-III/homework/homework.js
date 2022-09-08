@@ -3,18 +3,24 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  array = [1, 2, 3, 4];
+  return array;
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  array = [1, 2, 3, 4];
+  return array[3]:
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  array = [1,2,3,4];
+  return array.length;
 }
 
 
@@ -23,6 +29,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  array = [1, 2, 3, 4];
+  for (var i = 0; i <array.length; i++){
+      i = i + 1;
+  }
+  return array;
 }
 
 
@@ -30,7 +41,12 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+array = [1, 2, 3, 4];
+array.push("elemento");
+
+return array;
 }
+
 
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -38,6 +54,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  array = [1, 2, 3, 4];
+  array.unshift("elemento");
+  return array;
 }
 
 
@@ -47,6 +66,8 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  palabras = ['Hola', 'mundo', 'Adios'];
+  return palabras;
 }
 
 
@@ -54,6 +75,11 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  array = ['hola', 'elemento'];
+  if (array === 'elemento'){
+    return true;
+  }
+  return false;
 }
 
 
@@ -61,6 +87,9 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  numeros = [1, 2, 3, 4];
+  
+  return numeros [0 + 1 + 2 + 3];
 }
 
 
@@ -68,6 +97,8 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  
+
 }
 
 
