@@ -197,16 +197,19 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  var array2 = [];
-  for( var i=0; i<array.length; i++){
-    if( array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
-    array2.push(array[i]);
+  var nuevoArray = [];
+  for(let i= 0; i<array.length; i++) {
+    if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
+      nuevoArray.push(array[i]);
     }
   }
-  return array2; 
+  if(nuevoArray.length < 3) {
+    return "No se encontraron los meses pedidos";
+  }
+  else {
+      return nuevoArray;
+  }
 }
-return "No se encontraron los meses pedidos";
-
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
