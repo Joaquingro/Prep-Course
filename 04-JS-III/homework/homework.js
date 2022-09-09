@@ -55,7 +55,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
   
-  array.unshift = elemento;
+  array.unshift(elemento);
   return array;
 }
 
@@ -116,8 +116,9 @@ function numeroMasGrande(numeros) {
     if(mayor < numeros[i]){
       mayor = numeros[i]; 
     }
-    return mayor; 
+     
   }
+  return mayor;
 }
 
 
@@ -197,7 +198,7 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  var nuevoArray = [];
+   var nuevoArray = [];
   for(let i= 0; i<array.length; i++) {
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
       nuevoArray.push(array[i]);
