@@ -66,7 +66,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-    return palabras.join (' ');
+      return palabras.join(' ');
 }
 
 
@@ -125,12 +125,12 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  if(arguments.lenght < 1) return 0;
-  var multi = 1;
-  for(var i = 0; i<arguments.length; i++){
-    multi = multi * arguments[i];
+if(arguments.length < 1) return 0;
+  var total = 1;
+  for(var i = 0; i < arguments.length; i++) {
+    total = total * arguments[i];
   }
-  return multi;
+  return total;
 }
 
 
@@ -139,7 +139,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   var contador = 0;
   for(var i = 0; i<arreglo.lenght; i++){
-    if(arreglo.length > 18){
+    if(arreglo[i] > 18){
       contador++;
   }
   return contador; 
@@ -156,7 +156,7 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
   
-    if( numeroDeDia[i] === 1 || numeroDeDia[i] === 7 ){
+    if( numeroDeDia === 1 || numeroDeDia === 7 ){
       return "Es fin de semana";
     }
     return "Es día laboral";
@@ -182,10 +182,10 @@ function todosIguales(arreglo) {
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
   for( var i=0; i<arreglo.lenght-1; i++){
-    if(arreglo[i+1] === arreglo[i]){
-        return true;
+    if(arreglo[i] !== arreglo[i+1]){
+        return false;
   }
-  return false;
+  return true;
   }
 
 
@@ -199,12 +199,13 @@ function mesesDelAño(array) {
   // Tu código:
   var array2 = [];
   for( var i=0; i<array.length; i++){
-    if( array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre");
+    if( array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
     array2.push(array[i]);
-    return array2; 
+    }
   }
-  return "No se encontraron los meses pedidos";
+  return array2; 
 }
+return "No se encontraron los meses pedidos";
 
 
 function mayorACien(array) {
@@ -215,9 +216,9 @@ function mayorACien(array) {
   for ( var i=0; i<array.length; i++){
     if(array[i]>100){
       array2.push(array[i]);
-      return array2;
-    }
+      }
   }
+  return array2;
 }
 
 
@@ -229,16 +230,24 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var nuevonumero = [];
-  for(var i = 0; i<=10; i+=2){
-    nuevonumero = numero[i];
-     if(nuevonumero === 10 && i === 10){
+  var array2 = [];
+  var suma = numero;
+  for( var i =0; i<10;i++ ){
+    suma = suma + 2; 
+    if( suma === i) break;
+      else{
+        array2.push(suma);
+      }
+    if(i<10){
       return "Se interrumpio la ejecución";
-     }
-    return nuevonumero;
+    }
+    else{
+      
+      return array2;
+    }
   }
-
 }
+
 
 
 function continueStatement(numero) {
@@ -248,8 +257,17 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
-  
-  
+  var arreglo = [];
+  var suma = numero;
+  for( var i =0; i<10; i++){
+    suma = suma +2;
+    if(i === 5) continue;
+    else{
+      suma = suma + 2; 
+      arreglo.push(suma); 
+    }
+  }
+  return arreglo;
   }
 
 
