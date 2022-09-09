@@ -140,7 +140,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   let contador = 0;
   for(let i = 0; i<arreglo.lenght; i++){
-    if(arreglo[i] > 18){
+    if(arreglo[i] > 19){
       contador++;
   }
   
