@@ -185,9 +185,9 @@ function todosIguales(arreglo) {
     if(arreglo[i] !== arreglo[i+1]){
         return false;
   }
-  return true;
-  }
 
+  }
+  return true;
 
 } 
 
@@ -233,21 +233,20 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var array2 = [];
+   var array = [];
   var suma = numero;
-  for( var i =0; i<10;i++ ){
-    suma = suma + 2; 
-    if( suma === i) break;
-      else{
-        array2.push(suma);
-      }
-    if(i<10){
-      return "Se interrumpio la ejecución";
+  for(var i= 0; i<10; i++) {
+    suma = suma + 2;
+    if(suma === i) break;
+    else {
+      array.push(suma);
     }
-    else{
-      
-      return array2;
-    }
+  }
+  if(i < 10) {
+    return 'Se interrumpió la ejecución';
+  }
+  else {
+      return array;
   }
 }
 
