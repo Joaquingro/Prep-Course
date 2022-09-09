@@ -162,7 +162,7 @@ function diaDeLaSemana(numeroDeDia) {
     return "Es día laboral";
   }
 
-} 
+
 
 
 function empiezaConNueve(n) {
