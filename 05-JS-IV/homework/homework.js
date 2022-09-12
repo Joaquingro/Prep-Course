@@ -99,9 +99,8 @@ function verificarPassword (usuario, password) {
   if(usuario.password === usuario.password){
     return true;
   }
-  else{
     return false;
-  }
+  
 }
 
 function actualizarPassword (usuario, nuevaPassword) {
