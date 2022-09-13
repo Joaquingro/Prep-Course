@@ -22,7 +22,7 @@ function agregarPropiedad (objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto.propiedad = null;
+  objeto[propiedad] = null;
   
   return objeto;
 }
@@ -50,7 +50,7 @@ function eliminarPropiedad (objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  delete (objeto['unaPropiedad']);
+  delete (objeto[unaPropiedad]);
 
   return objeto;
 }
@@ -97,9 +97,12 @@ function verificarPassword (usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-  return usuario.password === usuario.password
+if(usuario.password === usuario.password){
+  return true;
+} else{
+  return false;
+}
     
-  
 }
 
 function actualizarPassword (usuario, nuevaPassword) {
@@ -142,7 +145,7 @@ function sumarLikesDeUsuario (usuario) {
   // Tu código:
   var suma = 0;
   for(var i = 0; i<usuario.length; i++){
-   suma = suma + usuarios.posts[i].likes;
+   suma = suma + usuario.posts[i].likes;
   }
     return suma;  
 }
@@ -160,7 +163,7 @@ function agregarMetodoCalculoDescuento (producto) {
   producto.calcularPrecioDescuento = function(){
     return this.precio - (this.precio * this.porcentajedeDescuento);
   }
-  return producto;
+  return producto.calcularPrecioDescuento;
   
 }
 
