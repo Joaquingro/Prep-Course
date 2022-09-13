@@ -97,9 +97,9 @@ function verificarPassword (usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-if(usuario.password === usuario.password){
+if(usuario['password'] === password){
   return true;
-} else if(usuario.password !== usuario.password){
+} else{ 
   return false;
   }
 }
