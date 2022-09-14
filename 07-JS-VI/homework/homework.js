@@ -7,7 +7,7 @@ function mayuscula(nombre) {
     nombre.prototype.capitalize = function(){
       return this.charAt(0).toUpperCase();
     }
-    var nombre1 = nombre.map( function(nombre, 0){
+    var nombre1 = nombre.map( function(nombre){
       return nombre.capitalize();
     }
 }
