@@ -9,9 +9,8 @@ function mayuscula(nombre) {
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
-  function retorna(cb, cb2){
-    return cb(cb2); 
-  }
+    cb();
+  
 }
 
 function operacionMatematica(n1, n2, cb) {
