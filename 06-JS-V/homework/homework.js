@@ -10,10 +10,10 @@ function crearUsuario() {
   // Tu código:
   function Usuario(){
     var objeto = {
-      this.usuario  = usuario,
-      this.nombre = nombre,
-      this.email = email,
-      this.password = password,
+      usuario:  usuario,
+      nombre: nombre,
+      email: email,
+      password: password,
       
     }
   }
@@ -86,7 +86,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
 function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
-    
+
 }
   
 
