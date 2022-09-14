@@ -77,7 +77,10 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Devolver la nueva persona creada
   class NuevaPersona extends Persona {
       contructor (nombre, apellido, edad, dir){
-        super(nombre, apellido, edad, dir);
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.dir = dir;
 
       }
   }
