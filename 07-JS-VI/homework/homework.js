@@ -27,15 +27,16 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   //Tu código:
   var suma = numeros.reduce(function(acc,numeros2){
-    cb = acc + numeros2;
+    return acc + numeros2;
   }, 0);
+  return cb(suma); 
 }
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-  for(var i= 0; i< array.lenght; i++){
+  for(var i= 0; i<array.length; i++){
       cb(array[i]); 
   }
 }
@@ -56,7 +57,7 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   var nuevoArray = [];
-  for( var i=0; i<array.lenght; i++ ){
+  for( let i=0; i<array.lenght; i++ ){
     if(array[i][0] === "a"){
       nuevoArray.push(array[i]) 
     }
