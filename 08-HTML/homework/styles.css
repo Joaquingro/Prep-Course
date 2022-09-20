@@ -1,0 +1,23 @@
+		<style> 
+
+			h1{
+				color:orange; 
+			}
+			img{
+
+				witdth: 400px;
+			}
+
+			spanId{
+				font-size: 18px;
+				border: 50px;
+			}
+
+			thirDiv{
+				height: 600px;
+				width: 500px; 
+				background: green;
+				padding: 50px;
+				border: 2px brown; 
+			}
+		<style/>

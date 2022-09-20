@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel= "stylesheet" href= "styles.css">
+	<head/>
+	<body> 
+		<div class= "divClass"> 
+			<h1> Joaquin <h1/>
+			<h3> Henry <h3/>
+			<h4> Tarea HTML/CSS <h4/>
+		<div/>
+
+		<div class= "divClass"> 
+			<lapso id = "spanId"> Las enchiladas son un plato de la gastronomía de México y Centroamérica, en cada país la preparación e ingredientes son diferentes, en México se elabora con tortillas de maíz enrolladas o dobladas y bañadas en alguna salsa picante. <lapso/>
+
+			<a href= "https://porfirios.com.mx/menu/"> ¡Accede a más platillos del menú! <a/>
+		<div/>
+
+		<div id ="thirdDiv">
+			<ul>
+				<li> 
+					<p> Enchiladas <p/>
+					<img src= "https://i.blogs.es/23068c/enchiladas-verdes-rellenas-de-queso-1-/1366_2000.jpg"/>
+				<li/> 
+				<li> 
+					<p> Hamburguesas <p/>
+					<img src= "https://storage.contextoganadero.com/s3fs-public/styles/noticias_one/public/cronica_de_la_semana/field_image/2022-03/cronica-origen-hamburguesas.jpg?itok=-_epTg53"/>
+				<li/>
+			<ul/> 
+
+		<div/>
+
+
+
+
+
+	<body/>
+<html/>
