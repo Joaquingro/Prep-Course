@@ -1,23 +1,35 @@
 		<style> 
+			body{
+				background-image: url("https://i0.wp.com/www.culinariamexicana.com.mx/wp-content/uploads/2020/07/Sepia-2.jpg?resize=800%2C445&ssl=1")
+				background-size: cover; 
+				background-repeat; no-repeat; 
+				background-position: center-center; 
 
+			}
 			h1{
 				color:orange; 
 			}
 			img{
 
-				witdth: 400px;
+				width: 400px;
 			}
 
-			spanId{
+			#spanId{
 				font-size: 18px;
-				border: 50px;
+				margin: 50px;
 			}
 
-			thirDiv{
+			#thirdDiv{
 				height: 600px;
-				width: 500px; 
-				background: green;
+				width: 600px; 
+				background-color: green;
 				padding: 50px;
-				border: 2px brown; 
+				border: 2px solid brown; 
+			}
+			.div{
+				position: absolute; 
+			}
+			#contenido{
+				width: 800px; margin: 0 auto;
 			}
 		<style/>
